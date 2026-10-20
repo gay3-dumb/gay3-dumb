@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="44" viewBox="0 0 800 44">
+  <g>
+    <circle cx="22" cy="22" r="14" fill="#151312" stroke="#BE9A5F" stroke-opacity="0.5" stroke-width="1"/>
+    <circle cx="22" cy="22" r="9" fill="none" stroke="#2f2b29" stroke-width="1"/>
+    <circle cx="22" cy="22" r="5" fill="#7A1F2B"/>
+    <circle cx="22" cy="19" r="1.5" fill="#D8CCB4"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 22 22" to="360 22 22" dur="4s" repeatCount="indefinite"/>
+  </g>
+  <text x="52" y="28" font-family="'Courier New', monospace" font-size="16" fill="#BE9A5F">01</text>
+  <text x="88" y="29" font-family="'Courier New', monospace" font-size="22" font-weight="bold" fill="#D8CCB4">readme.txt</text>
+  <line x1="270" y1="26" x2="760" y2="26" stroke="#BE9A5F" stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="2 6"/>
+  <text x="790" y="29" font-family="'Courier New', monospace" font-size="18" fill="#BE9A5F" fill-opacity="0.7" text-anchor="end">♪</text>
+</svg>
