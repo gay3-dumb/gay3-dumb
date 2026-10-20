@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="70" viewBox="0 0 800 70">
+  <!-- faint ground line -->
+  <line x1="0" y1="66" x2="800" y2="66" stroke="#BE9A5F" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 6"/>
+
+  <!-- floating notes and code bits -->
+  <g font-family="'Courier New', monospace" font-size="18" fill="#BE9A5F">
+    <text x="90" y="60" opacity="0">♪
+      <animate attributeName="y" values="60;10" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0" dur="5s" repeatCount="indefinite"/>
+    </text>
+    <text x="210" y="60" opacity="0">&lt;/&gt;
+      <animate attributeName="y" values="60;10" dur="6s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0" dur="6s" begin="1s" repeatCount="indefinite"/>
+    </text>
+    <text x="340" y="60" opacity="0">♫
+      <animate attributeName="y" values="60;10" dur="5.5s" begin="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0" dur="5.5s" begin="2s" repeatCount="indefinite"/>
+    </text>
+    <text x="470" y="60" opacity="0">{ }
+      <animate attributeName="y" values="60;10" dur="6.5s" begin="0.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0" dur="6.5s" begin="0.5s" repeatCount="indefinite"/>
+    </text>
+    <text x="600" y="60" opacity="0">♪
+      <animate attributeName="y" values="60;10" dur="5s" begin="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0" dur="5s" begin="3s" repeatCount="indefinite"/>
+    </text>
+    <text x="720" y="60" opacity="0">;
+      <animate attributeName="y" values="60;10" dur="6s" begin="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0" dur="6s" begin="1.5s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- walking pixel duck (walks right to left, facing left) -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="830 30; -60 30" dur="18s" repeatCount="indefinite"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -2; 0 0" dur="0.5s" repeatCount="indefinite"/>
+      <g transform="scale(0.5)">
+        <rect x="15" y="0" width="20" height="5" fill="#E6D9BE"/>
+        <rect x="10" y="5" width="30" height="5" fill="#E6D9BE"/>
+        <rect x="5" y="10" width="10" height="5" fill="#E8943A"/>
+        <rect x="15" y="10" width="5" height="5" fill="#E6D9BE"/>
+        <rect x="20" y="10" width="5" height="5" fill="#1c1a19"/>
+        <rect x="25" y="10" width="15" height="5" fill="#E6D9BE"/>
+        <rect x="0" y="15" width="15" height="5" fill="#E8943A"/>
+        <rect x="15" y="15" width="25" height="5" fill="#E6D9BE"/>
+        <rect x="15" y="20" width="20" height="5" fill="#E6D9BE"/>
+        <rect x="10" y="25" width="35" height="5" fill="#E6D9BE"/>
+        <rect x="10" y="30" width="45" height="5" fill="#E6D9BE"/>
+        <rect x="10" y="35" width="45" height="5" fill="#E6D9BE"/>
+        <rect x="10" y="40" width="45" height="5" fill="#E6D9BE"/>
+        <rect x="15" y="45" width="35" height="5" fill="#E6D9BE"/>
+        <rect x="20" y="50" width="25" height="5" fill="#E6D9BE"/>
+        <rect x="25" y="55" width="5" height="10" fill="#E8943A"/>
+        <rect x="40" y="55" width="5" height="10" fill="#E8943A"/>
+        <rect x="20" y="65" width="10" height="5" fill="#E8943A"/>
+        <rect x="40" y="65" width="10" height="5" fill="#E8943A"/>
+      </g>
+    </g>
+  </g>
+</svg>
