@@ -1,61 +1,118 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="70" viewBox="0 0 800 70">
+  <defs>
+    <!-- one pixel duck, drawn once and reused. facing left. -->
+    <g id="duck">
+      <rect x="15" y="0" width="20" height="5" fill="#E6D9BE"/>
+      <rect x="10" y="5" width="30" height="5" fill="#E6D9BE"/>
+      <rect x="5" y="10" width="10" height="5" fill="#E8943A"/>
+      <rect x="15" y="10" width="5" height="5" fill="#E6D9BE"/>
+      <rect x="20" y="10" width="5" height="5" fill="#1c1a19"/>
+      <rect x="25" y="10" width="15" height="5" fill="#E6D9BE"/>
+      <rect x="0" y="15" width="15" height="5" fill="#E8943A"/>
+      <rect x="15" y="15" width="25" height="5" fill="#E6D9BE"/>
+      <rect x="15" y="20" width="20" height="5" fill="#E6D9BE"/>
+      <rect x="10" y="25" width="35" height="5" fill="#E6D9BE"/>
+      <rect x="10" y="30" width="45" height="5" fill="#E6D9BE"/>
+      <rect x="10" y="35" width="45" height="5" fill="#E6D9BE"/>
+      <rect x="10" y="40" width="45" height="5" fill="#E6D9BE"/>
+      <rect x="15" y="45" width="35" height="5" fill="#E6D9BE"/>
+      <rect x="20" y="50" width="25" height="5" fill="#E6D9BE"/>
+      <rect x="25" y="55" width="5" height="10" fill="#E8943A"/>
+      <rect x="40" y="55" width="5" height="10" fill="#E8943A"/>
+      <rect x="20" y="65" width="10" height="5" fill="#E8943A"/>
+      <rect x="40" y="65" width="10" height="5" fill="#E8943A"/>
+    </g>
+  </defs>
+
   <!-- faint ground line -->
   <line x1="0" y1="66" x2="800" y2="66" stroke="#BE9A5F" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 6"/>
 
   <!-- floating notes and code bits -->
-  <g font-family="'Courier New', monospace" font-size="18" fill="#BE9A5F">
-    <text x="90" y="60" opacity="0">♪
-      <animate attributeName="y" values="60;10" dur="5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.7;0" dur="5s" repeatCount="indefinite"/>
+  <g font-family="'Courier New', monospace" font-size="16" fill="#BE9A5F">
+    <text x="120" y="60" opacity="0">♪
+      <animate attributeName="y" values="60;8" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.6;0" dur="5s" repeatCount="indefinite"/>
     </text>
-    <text x="210" y="60" opacity="0">&lt;/&gt;
-      <animate attributeName="y" values="60;10" dur="6s" begin="1s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.7;0" dur="6s" begin="1s" repeatCount="indefinite"/>
+    <text x="330" y="60" opacity="0">&lt;/&gt;
+      <animate attributeName="y" values="60;8" dur="6s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.6;0" dur="6s" begin="1s" repeatCount="indefinite"/>
     </text>
-    <text x="340" y="60" opacity="0">♫
-      <animate attributeName="y" values="60;10" dur="5.5s" begin="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.7;0" dur="5.5s" begin="2s" repeatCount="indefinite"/>
+    <text x="520" y="60" opacity="0">♫
+      <animate attributeName="y" values="60;8" dur="5.5s" begin="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.6;0" dur="5.5s" begin="2s" repeatCount="indefinite"/>
     </text>
-    <text x="470" y="60" opacity="0">{ }
-      <animate attributeName="y" values="60;10" dur="6.5s" begin="0.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.7;0" dur="6.5s" begin="0.5s" repeatCount="indefinite"/>
-    </text>
-    <text x="600" y="60" opacity="0">♪
-      <animate attributeName="y" values="60;10" dur="5s" begin="3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.7;0" dur="5s" begin="3s" repeatCount="indefinite"/>
-    </text>
-    <text x="720" y="60" opacity="0">;
-      <animate attributeName="y" values="60;10" dur="6s" begin="1.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.7;0" dur="6s" begin="1.5s" repeatCount="indefinite"/>
+    <text x="700" y="60" opacity="0">{ }
+      <animate attributeName="y" values="60;8" dur="6.5s" begin="0.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.6;0" dur="6.5s" begin="0.5s" repeatCount="indefinite"/>
     </text>
   </g>
 
-  <!-- walking pixel duck (walks right to left, facing left) -->
+  <!-- DUCK 1: walks left, keeps wondering where it's going -->
   <g>
-    <animateTransform attributeName="transform" type="translate" values="830 30; -60 30" dur="18s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="840 30; -40 30" dur="20s" repeatCount="indefinite"/>
     <g>
       <animateTransform attributeName="transform" type="translate" values="0 0; 0 -2; 0 0" dur="0.5s" repeatCount="indefinite"/>
-      <g transform="scale(0.5)">
-        <rect x="15" y="0" width="20" height="5" fill="#E6D9BE"/>
-        <rect x="10" y="5" width="30" height="5" fill="#E6D9BE"/>
-        <rect x="5" y="10" width="10" height="5" fill="#E8943A"/>
-        <rect x="15" y="10" width="5" height="5" fill="#E6D9BE"/>
-        <rect x="20" y="10" width="5" height="5" fill="#1c1a19"/>
-        <rect x="25" y="10" width="15" height="5" fill="#E6D9BE"/>
-        <rect x="0" y="15" width="15" height="5" fill="#E8943A"/>
-        <rect x="15" y="15" width="25" height="5" fill="#E6D9BE"/>
-        <rect x="15" y="20" width="20" height="5" fill="#E6D9BE"/>
-        <rect x="10" y="25" width="35" height="5" fill="#E6D9BE"/>
-        <rect x="10" y="30" width="45" height="5" fill="#E6D9BE"/>
-        <rect x="10" y="35" width="45" height="5" fill="#E6D9BE"/>
-        <rect x="10" y="40" width="45" height="5" fill="#E6D9BE"/>
-        <rect x="15" y="45" width="35" height="5" fill="#E6D9BE"/>
-        <rect x="20" y="50" width="25" height="5" fill="#E6D9BE"/>
-        <rect x="25" y="55" width="5" height="10" fill="#E8943A"/>
-        <rect x="40" y="55" width="5" height="10" fill="#E8943A"/>
-        <rect x="20" y="65" width="10" height="5" fill="#E8943A"/>
-        <rect x="40" y="65" width="10" height="5" fill="#E8943A"/>
+      <use href="#duck" transform="translate(-14 0) scale(0.5)"/>
+    </g>
+    <text x="-12" y="-3" font-family="'Courier New', monospace" font-size="14" fill="#BE9A5F" opacity="0">?
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.6;0.65;0.85;0.9" dur="4s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- DUCK 2: walks right, mid-journey from the start -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-40 30; 840 30" dur="26s" begin="-9s" repeatCount="indefinite"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -2; 0 0" dur="0.6s" repeatCount="indefinite"/>
+      <use href="#duck" transform="translate(14 0) scale(-0.5 0.5)"/>
+    </g>
+    <text x="-4" y="-3" font-family="'Courier New', monospace" font-size="14" fill="#BE9A5F" opacity="0">?
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.5;0.55;0.8;0.85" dur="5s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- DUCK 3: paces back and forth, stops, turns around, stops again -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="260 30; 190 30; 190 30; 400 30; 400 30; 260 30" keyTimes="0;0.25;0.35;0.65;0.75;1" dur="16s" repeatCount="indefinite"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -2; 0 0" dur="0.5s" repeatCount="indefinite"/>
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1 1; 1 1; -1 1; -1 1; 1 1; 1 1" keyTimes="0;0.25;0.35;0.65;0.75;1" calcMode="discrete" dur="16s" repeatCount="indefinite"/>
+        <use href="#duck" transform="translate(-14 0) scale(0.5)"/>
       </g>
+    </g>
+    <text x="-5" y="-3" font-family="'Courier New', monospace" font-size="14" fill="#BE9A5F" opacity="0">?
+      <animate attributeName="opacity" values="0;0;1;1;0;0;1;1;0;0" keyTimes="0;0.23;0.26;0.35;0.37;0.63;0.66;0.75;0.77;1" dur="16s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- DUCK 4: stands still, tilts its head at nothing -->
+  <g transform="translate(600 30)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="-7 0 35; 7 0 35; -7 0 35" dur="2.4s" repeatCount="indefinite"/>
+      <use href="#duck" transform="translate(-14 0) scale(0.5)"/>
+    </g>
+    <text x="-8" y="-3" font-family="'Courier New', monospace" font-size="14" fill="#BE9A5F">?!</text>
+  </g>
+
+  <!-- DUCK 5: paces on the far side -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="700 30; 640 30; 640 30; 770 30; 770 30; 700 30" keyTimes="0;0.2;0.3;0.7;0.8;1" dur="14s" begin="-4s" repeatCount="indefinite"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -2; 0 0" dur="0.45s" repeatCount="indefinite"/>
+      <g>
+        <animateTransform attributeName="transform" type="scale" values="1 1; 1 1; -1 1; -1 1; 1 1; 1 1" keyTimes="0;0.2;0.3;0.7;0.8;1" calcMode="discrete" dur="14s" begin="-4s" repeatCount="indefinite"/>
+        <use href="#duck" transform="translate(-14 0) scale(0.5)"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- DUCK 6: another left walker, started halfway across -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="840 30; -40 30" dur="32s" begin="-14s" repeatCount="indefinite"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -2; 0 0" dur="0.7s" repeatCount="indefinite"/>
+      <use href="#duck" transform="translate(-14 0) scale(0.5)"/>
     </g>
   </g>
 </svg>
