@@ -1,4 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <!-- background -->
   <rect width="800" height="200" fill="#1c1a19"/>
-  <text x="400" y="110" font-family="monospace" font-size="32" fill="#D6A756" text-anchor="middle">banner test: it works!</text>
+
+  <!-- burgundy strips at top and bottom -->
+  <rect x="0" y="0" width="800" height="14" fill="#7A1F2B"/>
+  <rect x="0" y="186" width="800" height="14" fill="#7A1F2B"/>
+
+  <!-- dashed amber frame, like a label on a record sleeve -->
+  <rect x="12" y="26" width="776" height="148" fill="none" stroke="#D6A756" stroke-width="2" stroke-dasharray="6 6"/>
+
+  <!-- terminal prompt line -->
+  <text x="48" y="62" font-family="'Courier New', monospace" font-size="16" fill="#D6A756">~/record-shop $ whoami</text>
+
+  <!-- big name -->
+  <text x="48" y="124" font-family="'Courier New', monospace" font-size="64" font-weight="bold" fill="#F3E6C8">gay3</text>
+
+  <!-- tagline -->
+  <text x="48" y="156" font-family="'Courier New', monospace" font-size="18" fill="#D6A756">cs student // occasionally buffering</text>
 </svg>
