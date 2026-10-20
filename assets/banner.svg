@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <rect width="800" height="200" fill="#1c1a19"/>
+  <text x="400" y="110" font-family="monospace" font-size="32" fill="#D6A756" text-anchor="middle">banner test: it works!</text>
+</svg>
