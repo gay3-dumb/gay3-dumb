@@ -1,49 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="410" viewBox="0 0 800 410">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="430" viewBox="0 0 800 430">
   <!-- background -->
-  <rect width="800" height="410" fill="#1c1a19"/>
+  <rect width="800" height="430" fill="#211e1c"/>
 
-  <!-- burgundy title bar -->
-  <rect width="800" height="36" fill="#7A1F2B"/>
-  <circle cx="22" cy="18" r="6" fill="#D6A756"/>
-  <circle cx="42" cy="18" r="6" fill="#F3E6C8"/>
-  <circle cx="62" cy="18" r="6" fill="#1c1a19"/>
-  <text x="90" y="23" font-family="'Courier New', monospace" font-size="15" fill="#F3E6C8">about_me.py</text>
+  <!-- muted burgundy title bar -->
+  <rect width="800" height="36" fill="#5A2630"/>
+  <circle cx="22" cy="18" r="6" fill="#BE9A5F"/>
+  <circle cx="42" cy="18" r="6" fill="#D8CCB4"/>
+  <circle cx="62" cy="18" r="6" fill="#211e1c"/>
+  <text x="90" y="23" font-family="'Courier New', monospace" font-size="15" fill="#D8CCB4">about_me.py</text>
 
   <!-- bottom strip -->
-  <rect x="0" y="402" width="800" height="8" fill="#7A1F2B"/>
+  <rect x="0" y="422" width="800" height="8" fill="#5A2630"/>
 
-  <!-- dashed amber frame -->
-  <rect x="10" y="46" width="780" height="346" fill="none" stroke="#D6A756" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <!-- soft dashed frame -->
+  <rect x="10" y="46" width="780" height="366" fill="none" stroke="#BE9A5F" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="6 6"/>
 
   <g font-family="'Courier New', monospace" font-size="16" xml:space="preserve">
-    <text x="28" y="76"><tspan fill="#F3E6C8">me</tspan><tspan fill="#9a8f84"> = </tspan><tspan fill="#D6A756">{</tspan></text>
-    <text x="28" y="100"><tspan fill="#D6A756">    "user"</tspan><tspan fill="#9a8f84">: </tspan><tspan fill="#F3E6C8">"CS student"</tspan><tspan fill="#9a8f84">,</tspan></text>
-    <text x="28" y="124"><tspan fill="#D6A756">    "skills"</tspan><tspan fill="#9a8f84">: </tspan><tspan fill="#F3E6C8">"in progress, learning by making errors"</tspan><tspan fill="#9a8f84">,</tspan></text>
-    <text x="28" y="148"><tspan fill="#D6A756">    "listens_to"</tspan><tspan fill="#9a8f84">: </tspan><tspan fill="#F3E6C8">"whatever the mood says"</tspan><tspan fill="#9a8f84">,</tspan></text>
-    <text x="28" y="172"><tspan fill="#D6A756">    "known_bug"</tspan><tspan fill="#9a8f84">: </tspan><tspan fill="#F3E6C8">"forgets what I was doing mid-sentence"</tspan><tspan fill="#9a8f84">,</tspan></text>
-    <text x="28" y="196"><tspan fill="#D6A756">    "debugging_method"</tspan><tspan fill="#9a8f84">: </tspan><tspan fill="#F3E6C8">"add print statements and pray"</tspan><tspan fill="#9a8f84">,</tspan></text>
-    <text x="28" y="220"><tspan fill="#D6A756">}</tspan></text>
+    <text x="28" y="76"><tspan fill="#D8CCB4">me</tspan><tspan fill="#8a8077"> = </tspan><tspan fill="#BE9A5F">{</tspan></text>
+    <text x="28" y="100"><tspan fill="#BE9A5F">    "user"</tspan><tspan fill="#8a8077">: </tspan><tspan fill="#D8CCB4">"CS student"</tspan><tspan fill="#8a8077">,</tspan></text>
+    <text x="28" y="124"><tspan fill="#BE9A5F">    "skills"</tspan><tspan fill="#8a8077">: </tspan><tspan fill="#D8CCB4">"in progress, learning by making errors"</tspan><tspan fill="#8a8077">,</tspan></text>
+    <text x="28" y="148"><tspan fill="#BE9A5F">    "listens_to"</tspan><tspan fill="#8a8077">: </tspan><tspan fill="#D8CCB4">"whatever the mood says"</tspan><tspan fill="#8a8077">,</tspan></text>
+    <text x="28" y="172"><tspan fill="#BE9A5F">    "known_bug"</tspan><tspan fill="#8a8077">: </tspan><tspan fill="#D8CCB4">"forgets what I was doing mid-sentence"</tspan><tspan fill="#8a8077">,</tspan></text>
+    <text x="28" y="196"><tspan fill="#BE9A5F">    "debugging_method"</tspan><tspan fill="#8a8077">: </tspan><tspan fill="#D8CCB4">"add print statements and pray"</tspan><tspan fill="#8a8077">,</tspan></text>
+    <text x="28" y="220"><tspan fill="#BE9A5F">}</tspan></text>
 
-    <text x="28" y="256"><tspan fill="#C4566A">def </tspan><tspan fill="#F3E6C8">two_am_plan</tspan><tspan fill="#9a8f84">():</tspan></text>
-    <text x="28" y="280"><tspan fill="#C4566A">    return </tspan><tspan fill="#F3E6C8">"tomorrow i get my life together"</tspan></text>
+    <text x="28" y="256"><tspan fill="#B5707C">def </tspan><tspan fill="#D8CCB4">two_am_plan</tspan><tspan fill="#8a8077">():</tspan></text>
+    <text x="28" y="280"><tspan fill="#B5707C">    return </tspan><tspan fill="#D8CCB4">"tomorrow i get my life together"</tspan></text>
 
-    <text x="28" y="316"><tspan fill="#C4566A">def </tspan><tspan fill="#F3E6C8">tomorrow</tspan><tspan fill="#9a8f84">():</tspan></text>
-    <text x="28" y="340"><tspan fill="#C4566A">    raise </tspan><tspan fill="#F3E6C8">Exception("the plan was just the soundtrack")</tspan></text>
+    <text x="28" y="316"><tspan fill="#B5707C">def </tspan><tspan fill="#D8CCB4">tomorrow</tspan><tspan fill="#8a8077">():</tspan></text>
+    <text x="28" y="340"><tspan fill="#B5707C">    raise </tspan><tspan fill="#D8CCB4">Exception("the plan was just the soundtrack")</tspan></text>
 
-    <text x="28" y="376" fill="#7d736a"># why github? a shelf for experiments.</text>
-    <text x="28" y="394" fill="#7d736a" font-size="0"> </text>
+    <text x="28" y="378" fill="#7d736a"># why github? a shelf for experiments.</text>
+    <text x="28" y="398" fill="#7d736a"># some finished, some still on the turntable.</text>
   </g>
 
   <!-- spinning vinyl -->
   <g>
-    <circle cx="710" cy="290" r="44" fill="#0e0d0c"/>
+    <circle cx="710" cy="290" r="44" fill="#151312"/>
     <circle cx="710" cy="290" r="37" fill="none" stroke="#2a2725" stroke-width="2"/>
     <circle cx="710" cy="290" r="30" fill="none" stroke="#2a2725" stroke-width="2"/>
-    <path d="M 710 250 A 40 40 0 0 1 750 290" fill="none" stroke="#4a4440" stroke-width="3"/>
-    <circle cx="710" cy="290" r="16" fill="#7A1F2B"/>
-    <circle cx="710" cy="290" r="16" fill="none" stroke="#D6A756" stroke-width="1.5"/>
-    <circle cx="710" cy="281" r="2.5" fill="#F3E6C8"/>
-    <circle cx="710" cy="290" r="2.5" fill="#1c1a19"/>
+    <path d="M 710 250 A 40 40 0 0 1 750 290" fill="none" stroke="#3d3835" stroke-width="3"/>
+    <circle cx="710" cy="290" r="16" fill="#5A2630"/>
+    <circle cx="710" cy="290" r="16" fill="none" stroke="#BE9A5F" stroke-opacity="0.7" stroke-width="1.5"/>
+    <circle cx="710" cy="281" r="2.5" fill="#D8CCB4"/>
+    <circle cx="710" cy="290" r="2.5" fill="#211e1c"/>
     <animateTransform attributeName="transform" type="rotate" from="0 710 290" to="360 710 290" dur="6s" repeatCount="indefinite"/>
   </g>
 </svg>
