@@ -18,7 +18,7 @@ I like it when code lets me be creative and a little unhinged. I hate it when I 
 
 <h2>contact.sh</h2>
 
-<code>linkedin</code> &nbsp; <a href="https://www.linkedin.com/in/gayatri-k-shecansingtoo">say hi on linkedin</a>
+<a href="https://www.linkedin.com/in/gayatri-k-shecansingtoo"><code>linkedin</code></a>
 
 <div align="center">
 
