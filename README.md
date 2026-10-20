@@ -22,6 +22,8 @@ I like it when code lets me be creative and a little unhinged. I hate it when I 
 &nbsp;
 <a href="mailto:gayatrikrishna.kgk@gmail.com"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" alt="Email"></a>
 
+<img src="assets/h-outro.svg" alt="outro.mp3" width="100%">
+
 <div align="center">
 
 <img src="assets/charm.svg" alt="" width="100%">
