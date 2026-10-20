@@ -8,26 +8,7 @@
 
 </div>
 
-<h2>about_me.py</h2>
-
-```python
-me = {
-    "user": "CS student",
-    "skills": "in progress, learning by making errors",
-    "listens_to": "whatever the mood says",
-    "known_bug": "forgets what I was doing mid-sentence",
-    "debugging_method": "add print statements and pray",
-}
-
-def two_am_plan():
-    return "tomorrow i get my life together"
-
-def tomorrow():
-    raise Exception("the plan was just the soundtrack")
-
-# why github? a shelf for experiments.
-# some finished, some still on the turntable.
-```
+<img src="assets/about.svg" alt="about_me.py card" width="100%">
 
 <h2>readme.txt</h2>
 
