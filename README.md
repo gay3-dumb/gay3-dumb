@@ -8,15 +8,15 @@
 
 </div>
 
-<h2>readme.txt</h2>
+<img src="assets/h-readme.svg" alt="readme.txt" width="100%">
 
 I like it when code lets me be creative and a little unhinged. I hate it when I have the bubbly ideas but not the braincells. My music taste depends on my mood, and my mood depends on nothing. idek why i mention music everywhere, that sums up me as a person ig.
 
-<h2>stack.cfg</h2>
+<img src="assets/h-stack.svg" alt="stack.cfg" width="100%">
 
 <img src="https://skillicons.dev/icons?i=c,cpp,java,py,html,git,github,vscode&theme=dark" alt="C, C++, Java, Python, HTML, Git, GitHub, VS Code">
 
-<h2>contact.sh</h2>
+<img src="assets/h-contact.svg" alt="contact.sh" width="100%">
 
 <a href="https://www.linkedin.com/in/gayatri-k-shecansingtoo"><code>linkedin</code></a>
 
