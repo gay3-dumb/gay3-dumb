@@ -18,7 +18,9 @@ I like it when code lets me be creative and a little unhinged. I hate it when I 
 
 <img src="assets/h-contact.svg" alt="contact.sh" width="100%">
 
-<a href="https://www.linkedin.com/in/gayatri-k-shecansingtoo"><code>linkedin</code></a>
+<a href="https://www.linkedin.com/in/gayatri-k-shecansingtoo"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" alt="LinkedIn"></a>
+&nbsp;
+<a href="mailto:gayatrikrishna.kgk@gmail.com"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" alt="Email"></a>
 
 <div align="center">
 
