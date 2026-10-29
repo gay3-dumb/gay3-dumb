@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="150" viewBox="0 0 160 150">
+  <!-- ground -->
+  <line x1="20" y1="138" x2="140" y2="138" stroke="#BE9A5F" stroke-opacity="0.3" stroke-width="1" stroke-dasharray="2 6"/>
+
+  <!-- floating notes -->
+  <g font-family="'Courier New', monospace" font-size="18" fill="#BE9A5F">
+    <text x="124" y="80" opacity="0">♪
+      <animate attributeName="y" values="80;20" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0" dur="2.4s" repeatCount="indefinite"/>
+    </text>
+    <text x="10" y="90" opacity="0">♫
+      <animate attributeName="y" values="90;30" dur="3s" begin="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- position and size of the duck -->
+  <g transform="translate(36 24) scale(1.6)">
+
+    <!-- 3) hop during the twirl -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -12;0 0" keyTimes="0;0.75;0.875;1" dur="8s" repeatCount="indefinite"/>
+
+      <g transform="translate(27 0)">
+        <!-- 3) twirl: squash flat, flip, squash flat, back (twice) -->
+        <g>
+          <animateTransform attributeName="transform" type="scale" values="1 1;1 1;0.02 1;-1 1;0.02 1;1 1;0.02 1;-1 1;0.02 1;1 1" keyTimes="0;0.75;0.78125;0.8125;0.84375;0.875;0.90625;0.9375;0.96875;1" dur="8s" repeatCount="indefinite"/>
+
+          <g transform="translate(-27 0)">
+            <!-- 1) body sways side to side, pivoting at the feet -->
+            <g>
+              <animateTransform attributeName="transform" type="rotate" values="0 27 70;-3 27 70;3 27 70;-3 27 70;3 27 70;-3 27 70;3 27 70;-3 27 70;3 27 70;-3 27 70;3 27 70;-3 27 70;3 27 70;0 27 70;0 27 70" keyTimes="0;0.03125;0.0625;0.09375;0.125;0.15625;0.1875;0.21875;0.25;0.28125;0.3125;0.34375;0.375;0.4;1" dur="8s" repeatCount="indefinite"/>
+
+              <!-- 2) small bounce on every tap -->
+              <g>
+                <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -1.5;0 0;0 -1.5;0 0;0 -1.5;0 0;0 -1.5;0 0;0 -1.5;0 0;0 -1.5;0 0;0 0" keyTimes="0;0.375;0.40625;0.4375;0.46875;0.5;0.53125;0.5625;0.59375;0.625;0.65625;0.6875;0.71875;0.75;1" dur="8s" repeatCount="indefinite"/>
+
+                <!-- head and front body -->
+                <rect x="15" y="0" width="20" height="5" fill="#E6D9BE"/>
+                <rect x="10" y="5" width="30" height="5" fill="#E6D9BE"/>
+                <rect x="5" y="10" width="10" height="5" fill="#E8943A"/>
+                <rect x="15" y="10" width="5" height="5" fill="#E6D9BE"/>
+                <rect x="20" y="10" width="5" height="5" fill="#1c1a19"/>
+                <rect x="25" y="10" width="15" height="5" fill="#E6D9BE"/>
+                <rect x="0" y="15" width="15" height="5" fill="#E8943A"/>
+                <rect x="15" y="15" width="25" height="5" fill="#E6D9BE"/>
+                <rect x="15" y="20" width="20" height="5" fill="#E6D9BE"/>
+                <rect x="10" y="25" width="25" height="5" fill="#E6D9BE"/>
+                <rect x="10" y="30" width="25" height="5" fill="#E6D9BE"/>
+                <rect x="10" y="35" width="25" height="5" fill="#E6D9BE"/>
+                <rect x="10" y="40" width="25" height="5" fill="#E6D9BE"/>
+                <rect x="15" y="45" width="20" height="5" fill="#E6D9BE"/>
+                <rect x="20" y="50" width="15" height="5" fill="#E6D9BE"/>
+
+                <!-- the butt: wiggles left and right on its own -->
+                <g>
+                  <animateTransform attributeName="transform" type="translate" values="0 0;4 0;-4 0;4 0;-4 0;4 0;-4 0;4 0;-4 0;4 0;-4 0;4 0;-4 0;0 0;0 0" keyTimes="0;0.03125;0.0625;0.09375;0.125;0.15625;0.1875;0.21875;0.25;0.28125;0.3125;0.34375;0.375;0.4;1" dur="8s" repeatCount="indefinite"/>
+                  <rect x="30" y="25" width="15" height="5" fill="#E6D9BE"/>
+                  <rect x="30" y="30" width="25" height="5" fill="#E6D9BE"/>
+                  <rect x="30" y="35" width="25" height="5" fill="#E6D9BE"/>
+                  <rect x="30" y="40" width="25" height="5" fill="#E6D9BE"/>
+                  <rect x="30" y="45" width="20" height="5" fill="#E6D9BE"/>
+                  <rect x="30" y="50" width="15" height="5" fill="#E6D9BE"/>
+                </g>
+              </g>
+
+              <!-- 2) left foot taps -->
+              <g>
+                <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -5;0 0;0 0;0 0;0 -5;0 0;0 0;0 0;0 -5;0 0;0 0;0 0;0 0" keyTimes="0;0.375;0.40625;0.4375;0.46875;0.5;0.53125;0.5625;0.59375;0.625;0.65625;0.6875;0.71875;0.75;1" dur="8s" repeatCount="indefinite"/>
+                <rect x="25" y="55" width="5" height="10" fill="#E8943A"/>
+                <rect x="20" y="65" width="10" height="5" fill="#E8943A"/>
+              </g>
+
+              <!-- 2) right foot taps -->
+              <g>
+                <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 0;0 0;0 -5;0 0;0 0;0 0;0 -5;0 0;0 0;0 0;0 -5;0 0;0 0" keyTimes="0;0.375;0.40625;0.4375;0.46875;0.5;0.53125;0.5625;0.59375;0.625;0.65625;0.6875;0.71875;0.75;1" dur="8s" repeatCount="indefinite"/>
+                <rect x="40" y="55" width="5" height="10" fill="#E8943A"/>
+                <rect x="40" y="65" width="10" height="5" fill="#E8943A"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
