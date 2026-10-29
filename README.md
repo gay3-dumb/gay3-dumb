@@ -26,7 +26,7 @@ I like it when code lets me be creative and a little unhinged. I hate it when I 
 
 <div align="center">
 
-<img src="assets/dance.svg" alt="a pixel duck dancing" width="160">
+<img src="assets/dance2.svg" alt="a pixel duck dancing" width="160">
 
 </div>
 
