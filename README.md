@@ -24,11 +24,11 @@ I like it when code lets me be creative and a little unhinged. I hate it when I 
 
 <img src="assets/h-outro.svg" alt="outro.mp3" width="100%">
 
-<div align="center">
+<!-- <div align="center">
 
 <img src="assets/dance2.svg" alt="a pixel duck dancing" width="160">
 
-</div>
+</div> -->
 
 <div align="center">
 
