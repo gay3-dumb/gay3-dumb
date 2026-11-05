@@ -35,38 +35,3 @@ I like it when code lets me be creative and a little unhinged. I hate it when I 
 <img src="assets/charm.svg" alt="" width="100%">
 
 </div>
-
-<div align="center">
-
-  <!-- Floating Music & Code Symbols Header -->
-  <p><code>&lt;&gt;</code> &nbsp; 🎵 &nbsp; <code>&gt;_</code> &nbsp; 🎶</p>
-
-  <br>
-
-  <!-- Record Shop Stats Container -->
-  <table width="100%" border="0">
-    <tr>
-      <td align="center" width="50%">
-        <!-- GitHub Stats with Vinyl/Radical Color Tones -->
-        <img src="https://github-readme-stats.vercel.app/api?username=gay3-dumb&show_icons=true&theme=radical&hide_border=true&bg_color=121212&title_color=ff7b72&icon_color=d29922&text_color=c9d1d9" alt="GitHub Stats" />
-      </td>
-      <td align="center" width="50%">
-        <!-- GitHub Streak Stats Matching the Vibe -->
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=gay3-dumb&theme=radical&hide_border=true&background=121212&sideLabels=true" alt="GitHub Streak" />
-      </td>
-    </tr>
-  </table>
-
-  <br>
-
-  <!-- Custom Contribution Activity Graph with Record Shop Colors -->
-  <p>
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=gay3-dumb&theme=react-dark&hide_border=true&color=ff7b72&line=d29922&point=ff7b72&background=121212" alt="Contribution Graph" />
-  </p>
-
-  <!-- Floating Dancing Duck / Vinyl Accent -->
-  <p>
-    <img src="./duck.gif" width="90px" alt="Dancing Duck">
-  </p>
-
-</div>
