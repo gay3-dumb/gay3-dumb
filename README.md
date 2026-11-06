@@ -16,6 +16,10 @@ I like it when code lets me be creative and a little unhinged. I hate it when I 
 
 <img src="https://skillicons.dev/icons?i=c,cpp,java,py,html,git,github,vscode&theme=dark" alt="C, C++, Java, Python, HTML, Git, GitHub, VS Code">
 
+<img src="assets/h-activity.svg" alt="activity.log" width="100%">
+
+<img src="assets/activity.svg" alt="contribution activity, last 30 days" width="100%">
+
 <img src="assets/h-contact.svg" alt="contact.sh" width="100%">
 
 <a href="https://www.linkedin.com/in/gayatri-k-shecansingtoo"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" alt="LinkedIn"></a>
