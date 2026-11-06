@@ -18,7 +18,7 @@ I like it when code lets me be creative and a little unhinged. I hate it when I 
 
 <img src="assets/h-activity.svg" alt="activity.log" width="100%">
 
-<img src="assets/activity.svg" alt="contribution activity, last 30 days" width="100%">
+<img src="assets/activity.svg" alt="GitHub activity: contribution mix, streaks and last 30 days" width="100%">
 
 <img src="assets/h-contact.svg" alt="contact.sh" width="100%">
 
